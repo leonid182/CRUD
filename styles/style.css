@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "BalsamiqSans-Regular";
+  src: url("../fonts/balsamiq/BalsamiqSans-Regular.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "BalsamiqSans-Regular";
+}
+
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-top: 52px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0px;
+}
+table th, table td, table tr {
+  text-align: center;
+}
+table th {
+  height: 30px;
+  background-color: #1a1818;
+  color: #fff;
+}
+table td {
+  border-bottom: 1px solid gray;
+}
+table .table-justify {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.add {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .add {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+}
+
+.form-edit {
+  background-image: url(/icons/Button-Refresh-icon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .form-edit {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.form-add {
+  background-image: url(/icons/Button-Add-icon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+@media (max-width: 768px) {
+  .form-add {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.form-delete {
+  background-image: url(/icons/Button-Close-icon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .form-delete {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.df {
+  display: flex;
+  justify-content: space-between;
+  width: 100vh;
+}
+@media (max-width: 768px) {
+  .df {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vh;
+  }
+}
+.df input {
+  border: inherit;
+  border-bottom: 1px solid gray;
+  text-align: center;
+  font-family: "BalsamiqSans-Regular";
+}
+@media (max-width: 768px) {
+  .df input {
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.error {
+  margin-top: -35px;
+}
+
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.scss.map */
+
+/*# sourceMappingURL=style.css.map */
